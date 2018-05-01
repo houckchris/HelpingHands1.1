@@ -1,18 +1,16 @@
 body {
   background-image: url(../images/bckgdPic.jpg);
   background-size: cover;
-
   margin: 0;
   padding: 0;
 }
-.homePage{
-  background-image: url(../images/bckgdPicHome.jpg);
+body.homePage{
+  background-image: url(../images/bckgdPicHome1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0;
   padding: 0;
 }
-
 #mainPic {
   background-image: url(../images/mobiledevices/LoadPage2.jpg);
   max-width: 100%;
@@ -22,52 +20,70 @@ body {
   padding-bottom: 1px;
   background-size: cover;
 }
-
 .blueBox1 {
-  background-color: rgb(10, 131, 201);
+  /* background-color: rgba(241, 15, 166, 0.6); */
+  background-color: rgba(15, 139, 241, 0.6);
   height: 750px;
   border-radius: 50px;
   width: 80%;
 }
-
 .blueBox2 {
-  background-color: rgb(10, 131, 201);
+  /* background-color: rgba(15, 241, 128, 0.6); */
+  background-color: rgba(15, 139, 241, 0.6);
   height: 750px;
   border-radius: 50px;
   width: 80%;
 }
-
+.blueBox3{
+  background-color: rgba(15, 139, 241, 0.6);
+  height: 100%;
+  border-radius: 50px;
+  width: 80%;
+  padding-bottom: 20px;
+}
+.blueBox4{
+  background-color: rgba(15, 139, 241, 0.6);
+  height: 100%;
+  border-radius: 50px;
+  width: 80%;
+  padding-bottom: 20px;
+}
 #whiteBackd{
   background-color: white;
+  position: relative;
   padding-top: 44px;
     padding-left: 51px;
     padding-right: 51px;
     padding-bottom: 18px;
-
 }
-
+/* For Home Page White Div */
+.whiteBack{
+  /* background-color: white; */
+  background: linear-gradient(to right, white,white,white,white,white,rgb(240, 221, 240),rgb(241, 211, 241));
+  margin-bottom: 0px;
+}
 .radioForm{
-
 text-align: left;
 }
-
 /* HomePage Styles */
-
+.treeHolder{
+}
+#treeLogo{
+  position: absolute;
+  top: 232px;
+    right: -71px;
+    width: 58%;
+}
 .logoHolder{
-
   margin-top: 11%;
 }
-
 .logoImageText{
   color:white;
   font-size:20px;
 }
-
-
 /* HomePage Styles */
 #homeLogo{
   width: 85%;
-
 }
 .homeText{
   color:white;
@@ -75,51 +91,57 @@ text-align: left;
     padding-right: 96px;
     margin-top: -48px;
     font-size: 22px;
+    margin-bottom:20px;
 }
-
 .homeButton{
-  background-color: rgb(9, 139, 199); /* Green */
+  
   border: none;
   color: white;
   padding: 15px 32px;
-  border-radius: 23px;
+  border-radius: 9px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   width: 250px;
-
+}
+#button1{
+  background: linear-gradient(0deg, rgb(64, 10, 95), rgb(236, 72, 187));
+  /* background-color: rgb(226, 37, 132);  */
+  margin-right:20px;
+}
+#button2{
+  margin-left:20px;
+  background: linear-gradient(0deg, rgb(34, 25, 150), rgb(40, 166, 238));
 }
 .twoButton{
-  margin-top:50px;
-
+  margin-top: 39px;
+  margin-bottom: 96px;
+ 
 }
-
 .homeButton:hover {background-color: red}
-
 .homeButton:active {
   /* background-color: #3e8e41; */
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
-
 /* Volunteer Styles */
-
+.taskHeading,.taskDate,.taskText{
+  color: white;
+}
+.taskContainer{
+  overflow:scroll;
+}
 #volName{
-
   color: white;
   font-size: 39px;
   margin-bottom: 11px;
 }
-
 .editBtn{
-
   background-color: rgb(14, 220, 235); /* Green */
   margin-bottom: 86px;
   margin-top: 4px;
 }
-
 #aboutMe,
 #volZip,
 #volEmail,
@@ -127,52 +149,34 @@ text-align: left;
   color: white;
   font-size: 20px;
 }
-
 #volImage{
-
-
 }
-
 .imgAttr{
   text-align:center;
 }
-
 .imageContain{
-
   width:100%
 }
-
 .sizeImage{
   width: 48%;
     margin-top: 30px;
     margin-bottom: 11px;
     border: 4px solid white;
 }
-
 /* Volunteer Styles */
-
-
 /* Event Styles */
-
 .emptySpace{
   height:40px;
   margin-top: 34px;
 }
-
-
 #eventForm{
-
 }
-
 .eventPimage{
-
   width: 80%;
 }
-
 #categorySec{
   padding-left: 50px;
 }
-
 .eventEnter {
   background-color: black;
   height: 27%;
@@ -180,57 +184,41 @@ text-align: left;
 .event1 {
   margin-top: 90px;
 }
-
 .event2{
-
 }
-
 .eventSingle{
-
   height: 94%;
 }
-
 .lastEventDiv{
-
   padding-bottom:30px;
 }
-
 .eventLogo {
   width: 90px;
   height: 90px;
   
 }
-
 .eventHeading{
   font-size:26px;
   color:white;
   margin-bottom:-13%
 }
-
 h3.eventDate{
   font-size: 26px;
   margin-top: 14px;
   color: white;
 }
-
 .eventHeading{
   font-size:31px;
 }
-
 .eventText{
   margin-left:10px;
   color:white;
 }
-
-
 /* Event Styles */
-
 /* Helper Classes */
-
 .flexItem {
   display: flex;
 }
-
 .flexCenter {
   align-items: center;
   justify-content: center;
@@ -239,18 +227,14 @@ h3.eventDate{
   margin-top: 159px;
   margin-bottom: 131px;
 }
-
 .space {
   margin-bottom: 185px;
 }
-
 .spaceHome{
   margin-bottom: 185px;
   height:100px;
 }
-
 /* Helper Classes  */
-
 /* Nav Bar Color select */
 #myNav {
   margin-left: 115px;
@@ -265,12 +249,10 @@ h3.eventDate{
   font-size: 30px;
   margin-top: 38px;
 }
-
 #navLogo {
   width: 350px;
   margin-top: 12px;
 }
-
 .arial {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -282,11 +264,9 @@ h3.eventDate{
   margin-bottom: -46px;
   margin-top: 21px;
 }
-
 .rotated {
   transform: rotate(-10deg);
 }
-
 #overlay {
   position: absolute;
   width: 100%;
@@ -301,12 +281,10 @@ h3.eventDate{
   z-index: 0;
   margin-top: 299px;
 }
-
 #ovText {
   color: white;
   text-align: center;
 }
-
 #mainPhone {
   width: 497px;
   margin-top: -56px;
@@ -314,17 +292,14 @@ h3.eventDate{
   padding-bottom: 3px;
   margin-bottom: -350px;
 }
-
 .blackLine {
   background-color: black;
   height: 98px;
   width: 900px;
 }
-
 #myProfile {
   float: left;
 }
-
 nav .brand-logo {
   color: black;
   font-family: "Montserrat", sans-serif;
@@ -336,7 +311,6 @@ nav .brand-logo {
 .aboutColor {
   background-color: blue;
 }
-
 /* Adjust height of Navbar */
 #navWhole {
   background-color: white;
@@ -346,16 +320,13 @@ nav .brand-logo {
   height: 1104px;
   margin-top: -56px;
 }
-
 #dorian {
   color: #2671c7;
 }
-
 mark.red {
   color: #ff0000;
   background: none;
 }
-
 #portContainer {
   background: url(../images/bg-pattern.png),
     linear-gradient(to left, #1c1ccd, #19c7d4);
@@ -363,7 +334,6 @@ mark.red {
     linear-gradient(to left, rgb(28, 28, 205), rgb(25, 199, 212)) ; */
   height: 800px;
 }
-
 #portfolioSec {
   height: 3px;
   margin-top: -327px;
@@ -372,18 +342,15 @@ mark.red {
   margin-top: -171px;
   margin-left: 70px;
 }
-
 #device {
   /* background-image: url(..assets/images/mobiledevices/iphone_6_port_gold.png);   */
 }
-
 #iphoneWhite {
   width: 50%;
   height: 50%;
   margin-top: 82px;
   margin-left: 122px;
 }
-
 .ux {
   text-align: center;
   color: white;
@@ -391,7 +358,6 @@ mark.red {
   font-weight: 400;
   letter-spacing: 3px;
 }
-
 .parallax-container .parallax img {
   z-index: -1;
   height: 700px;
@@ -402,11 +368,9 @@ mark.red {
   /* background-image: url(../images/bg-pattern.png),
     linear-gradient(to left, rgb(28, 28, 205), rgb(25, 199, 212)); */
 }
-
 .atlPic {
   height: 412px;
 }
-
 #slogan,
 #slogan2 {
   position: relative;
@@ -414,12 +378,10 @@ mark.red {
   font-family: "Montserrat", sans-serif;
   margin: 416px 0px 0px 800px;
 }
-
 #slogan2 {
   font-family: "Montserrat", sans-serif;
   margin: -68px 0px 0px 980px;
 }
-
 .githubIcon,
 .linkedInIcon,
 .instagramIcon,
@@ -434,54 +396,44 @@ mark.red {
   background-position: top center;
   background-size: 28px 28px;
 }
-
 .linkedInIcon {
   background-image: url("../images/linkedin.png");
 }
-
 .instagramIcon {
   background-image: url("../images/instagram.png");
 }
-
 .twitterIcon {
   background-image: url("../images/twitter.png");
 }
 a:hover {
   color: #2671c7;
 }
-
 /* #events,a:hover {
   color: red;
 } */
-
 #wSharp {
   margin-top: 89px;
 }
-
 #wSharp2 {
   margin-left: -342px;
   margin-top: -28px;
 }
-
 #wSharp3 {
   margin-top: -257px;
   margin-bottom: 40px;
 }
-
 .header {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   color: #2671c7;
   margin-top: -8px;
 }
-
 .portfolio,
 .contact {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   color: #2671c7;
 }
-
 .nav-mobile,
 .grey-text {
   font-family: "Montserrat", sans-serif;
@@ -489,55 +441,47 @@ a:hover {
   font-size: 30px;
   font-weight: 300;
 }
-
 .btn-large {
   height: 100px;
 }
-
 /* 
       ##Device = Desktops
       ##Screen = 1281px to higher resolution desktops
     */
-
 @media (min-width: 1281px) {
+  .whiteBack {
+    margin-top: 10rem;
+  }
 }
-
 /* 
       ##Device = Laptops, Desktops
       ##Screen = B/w 1025px to 1280px
     */
-
 @media (min-width: 1025px) and (max-width: 1280px) {
 }
-
 /* 
       ##Device = Tablets, Ipads (portrait)
       ##Screen = B/w 768px to 1024px
     */
-
 @media (min-width: 768px) and (max-width: 1024px) {
 }
-
 /* 
       ##Device = Tablets, Ipads (landscape)
       ##Screen = B/w 768px to 1024px
     */
-
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 }
-
-/* 
-      ##Device = Low Resolution Tablets, Mobiles (Landscape)
-      ##Screen = B/w 481px to 767px
-    */
-
+.whiteBack {
+  margin-top: 5rem;
+}
+      /* ##Device = Low Resolution Tablets, Mobiles (Landscape)
+      ##Screen = B/w 481px to 767px */
+    
 @media (min-width: 481px) and (max-width: 767px) {
 }
-
 /* 
       ##Device = Most of the Smartphones Mobiles (Portrait)
       ##Screen = B/w 320px to 479px
     */
-
 @media (min-width: 320px) and (max-width: 480px) {
 }
