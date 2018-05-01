@@ -57,7 +57,7 @@ module.exports = function(sequelize, DataTypes) {
     },
 
     taskDuration: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.TEXT,
       allowNull: false,
       validate: {
         len: [1]
