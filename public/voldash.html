@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Helping Hands</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Rambla" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav id="navWhole">
+            <div class="nav-wrapper" id="myNav">
+                <img id="navLogo" src="./images/handsLogoFull3.png">
+                <!-- <a href="#" class="brand-logo navSelect">Logo</a> -->
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a id="tasks" class="navSelect" href="#about-me">EVENTS</a>
+                    </li>
+                    <li>
+                        <a id="org" class="navSelect" href="#portfolioSec">ORGANIZATIONS</a>
+                    </li>
+                    <li>
+                        <a id="about" class="navSelect" href="#contactSec">ABOUT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row margin-top">
+        <div class="center-align flexItem flexCenter col s5">
+            <div class="blueBox1 ">
+                <div class="col s12">
+
+                    <img id="volImage" class="sizeImage responsive-img circle" src="">
+                    <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+
+                </div>
+                <div class="col s12" id="volName">Karen Smith</div>
+                <div class="col s12" id="aboutMe">
+                    <p>I'm eager and ready to volunteer! Can't wait to get my hands dirty!</p>
+                </div>
+                <div class="col s12">
+                    <a class="waves-effect waves-light btn-small editBtn">Edit Profile</a>
+                </div>
+                <div class="col s12" id="volZip">Zip Code: 30156</div>
+                <div class="col s12" id="volEmail">Email: karengjones@gmail.com</div>
+                <div class="col s12" id="volSkills">Applicable Skills: Foodservice, Construction</div>
+            </div>
+        </div>
+
+        <div class="center-align flexItem flexCenter col s7">
+            <div class="taskContainer blueBox2">
+                <div class="taskSingle">
+                    <div class="col s12">
+                        <h2 class="taskHeading">Upcoming Tasks</h2>
+                    </div>
+                    <div class="col s12 taskEnter task1">
+                        <div class="row">
+                            <div class="col s4">
+                                <img class="taskLogo" src="">
+                            </div>
+                            <div class="col s8">
+                                <h3 class="taskDate">May 22nd</h3>
+                                <p class="taskText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                                <a class="waves-effect waves-light btn-small" id="bookBtn">Book Task</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col s12 taskEnter task2">
+                        <div class="row">
+                            <div class="col s4">
+                                <img class="taskLogo" src="">
+                            </div>
+                            <div class="col s8">
+                                <h3 class="taskDate">June 12th</h3>
+                                <p class="taskText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                    ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                                <a class="waves-effect waves-light btn-small" id="bookBtn">Book Task</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col s12 taskEnter task3">
+                            <div class="row">
+                                <div class="col s4">
+                                    <img class="taskLogo" src="">
+                                </div>
+                                <div class="col s8">
+                                    <h3 class="taskDate">July 19th</h3>
+                                    <p class="taskText">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
+                                    <a class="waves-effect waves-light btn-small" id="bookBtn">Book Task</a>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="js/vol.js" type="text/javascript"></script>
+    <script src="js/task.js" type="text/javascript"></script>
+    <script src="js/org.js" type="text/javascript"></script>
+
+
+
+</body>
+
+</html>

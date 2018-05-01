@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volunteer Signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Rambla" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body>
+
+    <div class="navbar-fixed">
+        <nav id="navWhole">
+            <div class="nav-wrapper" id="myNav">
+                <img id="navLogo" src="./images/handsLogoFull3.png">
+                <!-- <a href="#" class="brand-logo navSelect">Logo</a> -->
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a id="events" class="navSelect" href="#about-me">EVENTS</a>
+                    </li>
+                    <li>
+                        <a id="org" class="navSelect" href="#portfolioSec">ORGANIZATIONS</a>
+                    </li>
+                    <li>
+                        <a id="about" class="navSelect" href="#contactSec">ABOUT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="space"></div>
+
+    <div class="row container" id="whiteBackd">
+        <form id="eventForm" class="col s12">
+            <div class="row">
+                <div class="input-field col s12">
+                    <div class="center-align">
+                        <img class="eventPimage" src="./images/signUp.png">
+                    </div>
+                </div>
+                <div class="input-field col s4">
+                    <input placeholder="" id="firstName" type="text" class="validate">
+                    <label id="eventTitle" for="firstName">Name</label>
+                </div>
+                <div class="input-field col s4">
+                    <input placeholder="" id="email" type="text" class="validate">
+                    <label id="eventTitle" for="email">Email</label>
+                </div>
+                <div class="input-field col s4">
+                    <input placeholder="" id="zipCode" type="text" class="validate">
+                    <label id="eventTitle" for="zipCode">ZipCode</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Placeholder" id="aboutme" type="text" class="validate">
+                    <label id="eventDesc" for="aboutMe">About Me</label>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col s6">
+                    <form action="#">
+                        <div class="file-field input-field">
+                            <div class="btn">
+                                <span>Upload Photo</span>
+                                <input type="file">
+                            </div>
+                            <div class="file-path-wrapper">
+                                <input placeholder="Placeholder" id="photoPath" class="file-path validate" type="text">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col s6" id="categorySec">
+                    <div>
+                        <form id="eventCat" class="radioForm" action="#">
+                            <label id="skill" for="last_name">Preffered Skill</label>
+                            <p>
+                                <label>
+                                    <input id="constructionSkill" name="skills" type="radio" value="Construction" checked />
+                                    <span>Construction</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input id="foodSkill" name="skills" type="radio" value="Food Service" />
+                                    <span>Food Service</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input id="landscapingSkill" name="skills" type="radio" value="Landscaping" />
+                                    <span>Landscaping</span>
+                                </label>
+                            </p>
+                            <p>
+                                <label>
+                                    <input id="tutoringSkill" name="skills" type="radio" value="Tutoring" />
+                                    <span>Tutoring</span>
+                                </label>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <div class="submitButton center-align">
+                        <a class="waves-effect waves-light btn">
+                            <i class="material-icons left">send</i>
+                            <button class="waves-effect waves-light btn" type="submit" value="submit"> submit</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+    <div class="row emptySpace"></div>
+    <div class="row"></div>
+
+    <!-- Main HomePage Area -->
+
+    <script>
+        $(document).ready(function () {
+            $('.datepicker').datepicker();
+        });
+
+        $(document).ready(function () {
+            $('.timepicker').timepicker();
+        });
+
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
+    <script src="js/vol.js" type="text/javascript"></script>
+    <script src="js/event.js" type="text/javascript"></script>
+    <script src="js/org.js" type="text/javascript"></script>
+
+
+
+</body>
+
+</html>

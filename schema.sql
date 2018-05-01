@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS volorg_db;
+CREATE DATABASE volorg_db;

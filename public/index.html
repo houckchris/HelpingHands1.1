@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Volunteer Signup</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Rambla" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/js/main.js"></script>
+</head>
+
+<body class="homePage">
+
+    <div class="navbar-fixed">
+        <nav id="navWhole">
+            <div class="nav-wrapper" id="myNav">
+                <img id="navLogo" src="./images/handsLogoFull3.png">
+                <!-- <a href="#" class="brand-logo navSelect">Logo</a> -->
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a id="events" class="navSelect" href="#about-me">EVENTS</a>
+                    </li>
+                    <li>
+                        <a id="org" class="navSelect" href="#portfolioSec">ORGANIZATIONS</a>
+                    </li>
+                    <li>
+                        <a id="about" class="navSelect" href="#contactSec">ABOUT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <div class="row">
+        <div class="col s7">
+            <div class="logoHolder center-align">
+                <img id="homeLogo" class="responsive-img" src="./images/homeLogo1.png">
+                <p class="homeText">Helping Hands is the most effective way to recruit highly qualified volunteers for your nonprofit. We match
+                    you with people who are passionate about and committed to your cause, and who can help when and where
+                    you need</p>
+                <p class="homeText">Helping Hands is the most effective way to recruit highly qualified volunteers for your nonprofit. We match
+                    you with people who are passionate about and committed to your cause, and who can help when and where
+                    you need</p>
+            </div>
+        </div>
+        <div class="col s5">
+
+        </div>
+        <div class="col s7">
+            <div class="col s12 twoButton">
+                <div class="center-align">
+
+                    <button class="homeButton" id="button1" type="button">Volunteer</button>
+                    <button class="homeButton" id="button2" type="button">Organization</button>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="col s5">
+
+        </div>
+
+    </div>
+
+
+    <div class="spaceHome"></div>
+
+
+
+
+
+    <!-- Main HomePage Area -->
+
+    <script>
+        $(document).ready(function () {
+            $('.datepicker').datepicker();
+        });
+
+        $(document).ready(function () {
+            $('.timepicker').timepicker();
+        });
+
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
+    <script src="js/vol.js" type="text/javascript"></script>
+    <script src="js/event.js" type="text/javascript"></script>
+    <script src="js/org.js" type="text/javascript"></script>
+
+
+
+</body>
+
+</html>
