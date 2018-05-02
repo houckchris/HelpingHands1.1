@@ -7,16 +7,7 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/houckchris/project2.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/houckchris/project2/issues"
-  },
-  "homepage": "https://github.com/houckchris/project2#readme",
+
   "dependencies": {
     "body-parser": "^1.18.2",
     "dotenv": "^5.0.1",
