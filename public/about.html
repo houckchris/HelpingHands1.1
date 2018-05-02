@@ -5,106 +5,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Helping Hands</title>
+    <title>Volunteer Signup</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Acme|Rambla" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,800" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+"
         crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-    <!-- <script src="assets/js/main.js"></script> -->
+
+    <script src="assets/js/main.js"></script>
 </head>
 
 <body>
 
-        <div class="navbar-fixed">
-                <nav id="navWhole">
-                    <div class="nav-wrapper" id="myNav">
-                            <a href="index.html">
-                                    <img id="navLogo" src="./images/handsLogoFull3.png">
-                                </a>
-                        <!-- <a href="#" class="brand-logo navSelect">Logo</a> -->
-                        <ul id="nav-mobile" class="right hide-on-med-and-down">
-                            <li>
-                                <a id="events" class="navSelect" href="volunteer.html">VOLUNTEERS</a>
-                            </li>
-                            <li>
-                                <a id="org" class="navSelect" href="tasks.html">ORGANIZATIONS</a>
-                            </li>
-                            <li>
-                                <a id="about" class="navSelect" href="about.html">ABOUT US</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+    <div class="navbar-fixed">
+        <nav id="navWhole">
+            <div class="nav-wrapper" id="myNav">
+                <a href="index.html">
+                    <img id="navLogo" src="./images/handsLogoFull3.png">
+                </a>
+                <!-- <a href="#" class="brand-logo navSelect">Logo</a> -->
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li>
+                        <a id="events" class="navSelect" href="volunteer.html">VOLUNTEERS</a>
+                    </li>
+                    <li>
+                        <a id="org" class="navSelect" href="tasks.html">ORGANIZATIONS</a>
+                    </li>
+                    <li>
+                        <a id="about" class="navSelect" href="about.html">ABOUT US</a>
+                    </li>
+                </ul>
             </div>
+        </nav>
+    </div>
 
-    <div class="row margin-top">
-        <div class="center-align flexItem flexCenter col s6">
-            <div class="blueBox3">
 
-                <div class="col s12">
-                    <img id="aboutImage" class="group-pic sizeImage responsive-img circle" src="./images/kristen.jpg">
-                    <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
-                </div>
-                <div class="col s12" id="volName">Kristen Speckhals</div>
-                <div class="col s12" id="aboutMe">
-                    <p>Kristen is a New Orleans native that speaks French and loves to travel. She has an equal love for databases
-                        and front-end development. She is the coding guru!</p>
-                </div>
-                <div class="col s12" id="volSkills">Contribution: Backend, Database design, Quality Assurance, and various coding processes</div>
-                
-                <div class="col s12">
-                    <img id="aboutImage" class="sizeImage responsive-img circle" src="./images/dorian.jpg">
-                    <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
-                </div>
-                                <div class="col s12" id="volName">Dorian Crawford</div>
-                <div class="col s12" id="aboutMe">
-                    <p>Dorian is from North Carolina and has a background in digital media. He is a bona-fide front-end artiste.
-                        He is the canvas when it comes to tatoos!</p>
-                </div>
-                <div class="col s12" id="volSkills">Contribution: Frontend, HTML, Materialize and CSS, various coding processes</div>
+    <div class="space"></div>
+    <div class="row container" id="aboutUsgraph">
+
+        <div class="input-field col s12">
+            <div class="center-align">
+                <img class="eventPimage2" src="./images/aboutUsColorWhite.png">
             </div>
         </div>
 
+    </div>
 
-        <div class="center-align flexItem flexCenter col s6">
-            <div class="blueBox4">
 
-                <div class="col s12">
-                    <img id="aboutImage" class="sizeImage responsive-img circle" src="./images/chris.jpg">
-                    <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
-                </div>
-                <div class="col s12" id="volName">Chris Houck</div>
-                <div class="col s12" id="aboutMe">
-                    <p>Chris is a Georgia native and enjoys rock climbing and speaks Chinese. He has an interest in front-end
-                        development and experience with the MERN stack. He is on the tallest stack and not just rocks!!</p>
-                </div>
-                <div class="col s12" id="volSkills">Contribution: Project Manager, Git Repository Management, Backend, Database design, various coding processes</div>
-
-                <div class="col s12">
-                    <img id="aboutImage" class="sizeImage responsive-img circle" src="./images/richard.jpg">
-                    <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
-                </div>
-                <div class="col s12" id="volName">Richard Comi</div>
-                <div class="col s12" id="aboutMe">
-                    <p>Richard Comi is from Ft Walton Beach, Fl. He loves the MERN stack and when a plan comes together. He
-                        enjoys, baseball, fishing and outdoor living.</p>
-                </div>
-                <div class="col s12" id="volSkills">Contribution: Backend, Database design, Routes, Error testing, and various coding processes</div>
+    <div class="row container" id="whiteBackd2">
+        <div class="col s12">
+            <h2 class="bioTitle center-align">Kristen Speckhals</h2>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+        </div>
+        <div class="col s3">
+            <div class="bioPicDiv">
+                <img id="aboutImage" class="group-pic sizeImage2 responsive-img circle" src="./images/kristen.jpg">
             </div>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+        </div>
+        <div class="col s9">
+            <p class="bioText">Kristen is a New Orleans native that speaks French and loves to travel. She has an equal love for databases and
+                front-end development. She is the coding guru!</p>
+            <p class="bioText">Contribution: Backend, Database design, Quality Assurance, and various coding processes</p>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
         </div>
     </div>
 
 
 
-    <!-- <script src="js/vol.js" type="text/javascript"></script>
-    <script src="js/task.js" type="text/javascript"></script>
-    <script src="js/org.js" type="text/javascript"></script> -->
+    <div class="row container" id="whiteBackd3">
+        <div class="col s12">
+            <h2 class="bioTitle center-align">Chris Houck</h2>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+        </div>
+        <div class="col s3">
+            <div class="bioPicDiv">
+                <img id="aboutImage" class="group-pic sizeImage2 responsive-img circle" src="./images/chris.jpg">
+            </div>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+        </div>
+        <div class="col s9">
+            <p class="bioText">Chris is a Georgia native and enjoys rock climbing and speaks Chinese. He has an interest in front-end development
+                and experience with the MERN stack. He is on the tallest stack and not just rocks!!</p>
+            <p class="bioText">Contribution: Project Manager, Git Repository Management, Backend, Database design, various coding processes</p>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+        </div>
+    </div>
+
+    <div class="row container" id="whiteBackd2">
+        <div class="col s12">
+            <h2 class="bioTitle center-align">Dorian Crawford</h2>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+        </div>
+        <div class="col s3">
+            <div class="bioPicDiv">
+                <img id="aboutImage" class="group-pic sizeImage2 responsive-img circle" src="./images/dorian.jpg">
+            </div>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+        </div>
+        <div class="col s9">
+            <p class="bioText">Dorian is from North Carolina and has a background in digital media. He is a bona-fide front-end artiste.</p>
+            <p class="bioText">Contribution: Frontend, HTML, Materialize and CSS, various coding processes</p>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+        </div>
+    </div>
+
+    <div class="row container" id="whiteBackd3">
+        <div class="col s12">
+            <h2 class="bioTitle center-align">Richard Comi</h2>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+        </div>
+        <div class="col s3">
+            <div class="bioPicDiv">
+                <img id="aboutImage" class="group-pic sizeImage2 responsive-img circle" src="./images/richard.jpg">
+            </div>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+        </div>
+        <div class="col s9">
+            <p class="bioText">Richard Comi is from Ft Walton Beach, Fl. He loves the MERN stack and when a plan comes together. He enjoys,
+                baseball, fishing and outdoor living.</p>
+            <p class="bioText">Contribution: Backend, Database design, Routes, Error testing, and various coding processes</p>
+            <!-- <img id="volImage" class="sizeImage responsive-img circle" src="./images/steph2.jpg"> -->
+        </div>
+    </div>
+
+    <div class="row emptySpace"></div>
+    <div class="row"></div>
+
+    <!-- Main HomePage Area -->
+
+    <script>
+        $(document).ready(function () {
+            $('.datepicker').datepicker();
+        });
+
+        $(document).ready(function () {
+            $('.timepicker').timepicker();
+        });
+
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
+    <script src="js/vol.js" type="text/javascript"></script>
+    <script src="js/event.js" type="text/javascript"></script>
+    <script src="js/org.js" type="text/javascript"></script>
 
 
 
